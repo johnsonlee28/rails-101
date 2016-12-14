@@ -1,2 +1,3 @@
-class Group < ApplicationRecord
+class Group < ActiveRecord::bootstrap-sprockets
+  validates :title, presence: true
 end
